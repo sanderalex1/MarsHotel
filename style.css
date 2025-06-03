@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+/* Main page style */
+
+/* Header style */
+
 .titlefont {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -20,7 +24,8 @@
 }
 
 .navfont button,
-a {
+a,
+p {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -29,11 +34,11 @@ a {
 
 header {
   display: flex;
-  background-color: blufde;
+  background-color: white;
   justify-content: center;
   align-items: center;
   height: 70px;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black;
 }
 
 header > nav {
@@ -50,6 +55,7 @@ a:hover,
 a:active {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 nav > ul {
@@ -64,6 +70,7 @@ ul > button {
   border: 0;
   background-color: white;
   height: 40px;
+  cursor: pointer;
 }
 
 nav > div {
@@ -72,8 +79,107 @@ nav > div {
   gap: 20px;
 }
 
+/* Main section style */
+
 .mainsection {
+  position: relative;
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  height: 80svh;
+  border-bottom: 5px solid black;
+}
+
+.mainsection > img {
+  width: 100%;
+  height: 80svh;
+  object-fit: cover;
+  object-position: 1% 62%;
 }
 
 .insidesection {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: #bc38089c;
+  height: 150px;
+  width: 70svw;
+  z-index: 2;
+  border-radius: 10px;
+  padding: 20px;
 }
+
+.insidesection > nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  gap: 150px;
+}
+
+.insidesection > nav > div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 15px;
+  align-items: start;
+  padding: 15px;
+}
+
+.insidesection > nav > div > p {
+  cursor: pointer;
+}
+
+.insidesection > nav > div:hover {
+  background-color: #22090139;
+  cursor: pointer;
+}
+
+.insidesection > nav > div > button {
+  width: 120px;
+  background: none;
+  border: none;
+}
+
+.insidesection > nav > div > input {
+  background: none;
+  border: none;
+}
+
+.insidesection > nav > div > input::placeholder {
+  color: #ffffff95;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.insidesection > nav > div > input:focus {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8b2315;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+#search img {
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+#search:hover {
+  background-color: #711c11;
+  cursor: pointer;
+}
+
+/* LogInPageStyle */
