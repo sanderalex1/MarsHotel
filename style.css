@@ -15,6 +15,10 @@
 
 /* Header style */
 
+.pointer {
+  cursor: pointer;
+}
+
 .titlefont {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -180,6 +184,11 @@ nav > div {
 #search:hover {
   background-color: #711c11;
   cursor: pointer;
+}
+
+/* Offers section style */
+
+.offerssection {
 }
 
 /* LogInPageStyle */
