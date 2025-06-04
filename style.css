@@ -187,8 +187,47 @@ nav > div {
 }
 
 /* Offers section style */
-
-.offerssection {
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 90svh;
+  width: 50svw;
+  gap: 40px;
 }
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 100%;
+  gap: 10px;
+}
+
+.subContainer img {
+  height: 100%;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  background-color: #dc2e02cd;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box p {
+  padding: 5%;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Footer style */
 
 /* LogInPageStyle */
