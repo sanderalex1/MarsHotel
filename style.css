@@ -243,4 +243,34 @@ nav > div {
 
 /* Footer style */
 
+footer{
+  border-top: 3px solid black;
+  margin-top: 50px;
+  background-color:#711c11 ;
+}
+
+.footersection{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 70svw;
+  background-color: bue;
+  gap: 15px;
+  align-items: center;
+}
+
+.upperfooter{
+  margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content:baseline;
+ gap: 1000px;
+
+}
+
+.upperfooter > img{
+  background-color: white;
+}
+
 /* LogInPageStyle */
