@@ -192,7 +192,7 @@ nav > div {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 90svh;
+  height: 150svh;
   width: 50svw;
   gap: 40px;
 }
@@ -228,7 +228,7 @@ nav > div {
   text-align: center;
 }
 
-.box button{
+.box button {
   border-radius: 10px;
   height: 30px;
   width: 100px;
@@ -243,13 +243,13 @@ nav > div {
 
 /* Footer style */
 
-footer{
+footer {
   border-top: 3px solid black;
   margin-top: 50px;
-  background-color:#711c11 ;
+  background-color: #711c11;
 }
 
-.footersection{
+.footersection {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -260,17 +260,21 @@ footer{
   align-items: center;
 }
 
-.upperfooter{
+.upperfooter {
   margin-top: 20px;
- display: flex;
- flex-direction: row;
- justify-content:baseline;
- gap: 1000px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  gap: 800px;
+  border-bottom: solid white 2px;
 }
 
-.upperfooter > img{
-  background-color: white;
+.lowerfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  gap: 650px;
+  color: #fdf0d5;
 }
 
 /* LogInPageStyle */
