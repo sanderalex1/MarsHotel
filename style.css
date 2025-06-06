@@ -241,6 +241,11 @@ nav > div {
   font-style: normal;
 }
 
+.box button:hover {
+  background-color: #fefae0;
+  cursor: pointer;
+}
+
 /* Footer style */
 
 footer {
