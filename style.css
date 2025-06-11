@@ -183,3 +183,68 @@ nav > div {
 }
 
 /* LogInPageStyle */
+
+/* Set the full-screen background image */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background.jpg"); /* Replace with your actual image file */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the login box */
+.login-container {
+  background: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading */
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Labels and inputs */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Log in button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #006666;
+}
