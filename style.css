@@ -15,6 +15,10 @@
 
 /* Header style */
 
+.pointer {
+  cursor: pointer;
+}
+
 .titlefont {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -180,6 +184,102 @@ nav > div {
 #search:hover {
   background-color: #711c11;
   cursor: pointer;
+}
+
+/* Offers section style */
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 150svh;
+  width: 50svw;
+  gap: 40px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 100%;
+  gap: 10px;
+}
+
+.subContainer img {
+  height: 100%;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  background-color: #dc2e02cd;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box p {
+  padding: 5%;
+  font-size: 13px;
+  text-align: center;
+}
+
+.box button {
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-color: none;
+  color: #dc2e02cd;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.box button:hover {
+  background-color: #fefae0;
+  cursor: pointer;
+}
+
+/* Footer style */
+
+footer {
+  border-top: 3px solid black;
+  margin-top: 50px;
+  background-color: #711c11;
+}
+
+.footersection {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 70svw;
+  background-color: bue;
+  gap: 15px;
+  align-items: center;
+}
+
+.upperfooter {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  gap: 800px;
+  border-bottom: solid white 2px;
+}
+
+.lowerfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  gap: 650px;
+  color: #fdf0d5;
 }
 
 /* LogInPageStyle */
